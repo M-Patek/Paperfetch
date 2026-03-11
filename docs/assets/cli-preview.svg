@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#0F172A"/>
+  <rect x="60" y="48" width="1080" height="624" rx="26" fill="#111827" stroke="#334155"/>
+  <circle cx="102" cy="86" r="8" fill="#FB7185"/>
+  <circle cx="126" cy="86" r="8" fill="#FBBF24"/>
+  <circle cx="150" cy="86" r="8" fill="#34D399"/>
+  <text x="184" y="92" fill="#CBD5E1" font-family="Consolas, Menlo, monospace" font-size="26">paperfetch extract https://www.alphaxiv.org/abs/2301.12345 --format json --no-alpha</text>
+  <text x="96" y="148" fill="#93C5FD" font-family="Consolas, Menlo, monospace" font-size="24">{</text>
+  <text x="128" y="188" fill="#E2E8F0" font-family="Consolas, Menlo, monospace" font-size="24">"canonical_id": "2301.12345",</text>
+  <text x="128" y="226" fill="#E2E8F0" font-family="Consolas, Menlo, monospace" font-size="24">"versioned_id": "2301.12345v1",</text>
+  <text x="128" y="264" fill="#E2E8F0" font-family="Consolas, Menlo, monospace" font-size="24">"title": "Chemotactic motility-induced phase separation",</text>
+  <text x="128" y="302" fill="#E2E8F0" font-family="Consolas, Menlo, monospace" font-size="24">"authors": ["Hongbo Zhao", "Andrej Kosmrlj", "Sujit S. Datta"],</text>
+  <text x="128" y="340" fill="#E2E8F0" font-family="Consolas, Menlo, monospace" font-size="24">"primary_category": "physics.bio-ph",</text>
+  <text x="128" y="378" fill="#E2E8F0" font-family="Consolas, Menlo, monospace" font-size="24">"pdf_url": "https://arxiv.org/pdf/2301.12345v1.pdf"</text>
+  <text x="96" y="418" fill="#93C5FD" font-family="Consolas, Menlo, monospace" font-size="24">}</text>
+  <rect x="96" y="476" width="382" height="96" rx="18" fill="#172554"/>
+  <text x="124" y="522" fill="#BFDBFE" font-family="Inter, Segoe UI, sans-serif" font-size="28" font-weight="700">Agent-ready output</text>
+  <text x="124" y="556" fill="#CBD5E1" font-family="Inter, Segoe UI, sans-serif" font-size="22">Canonical IDs, categories, links, and provenance.</text>
+</svg>

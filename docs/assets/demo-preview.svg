@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" fill="#F5EFE2"/>
+  <rect x="52" y="44" width="1096" height="192" rx="28" fill="#FFF8EA" stroke="#D6C6AD"/>
+  <text x="92" y="94" fill="#8D3110" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">paperfetch / arXiv + alphaXiv unified extractor</text>
+  <text x="92" y="156" fill="#1C1914" font-family="Georgia, serif" font-size="58" font-weight="700">From paper URL to clean JSON.</text>
+  <text x="92" y="202" fill="#655A4D" font-family="Segoe UI, sans-serif" font-size="24">Paste an arXiv ID, arXiv URL, or alphaXiv URL and get a structured record plus Markdown dossier.</text>
+  <rect x="52" y="264" width="516" height="404" rx="28" fill="#FFF8EA" stroke="#D6C6AD"/>
+  <rect x="600" y="264" width="548" height="404" rx="28" fill="#FFF8EA" stroke="#D6C6AD"/>
+  <text x="84" y="316" fill="#655A4D" font-family="Segoe UI, sans-serif" font-size="24">Input</text>
+  <rect x="84" y="338" width="452" height="124" rx="18" fill="#FFFFFF" stroke="#D6C6AD"/>
+  <text x="108" y="392" fill="#1C1914" font-family="Consolas, monospace" font-size="22">https://www.alphaxiv.org/abs/2301.12345</text>
+  <rect x="84" y="492" width="176" height="54" rx="27" fill="#B74A21"/>
+  <text x="132" y="527" fill="#FFFFFF" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">Extract</text>
+  <rect x="84" y="566" width="216" height="58" rx="18" fill="#FFFFFF" stroke="#D6C6AD"/>
+  <text x="108" y="603" fill="#655A4D" font-family="Segoe UI, sans-serif" font-size="22">Copy JSON</text>
+  <text x="632" y="316" fill="#655A4D" font-family="Segoe UI, sans-serif" font-size="24">JSON output</text>
+  <rect x="632" y="338" width="484" height="286" rx="18" fill="#FFFFFF" stroke="#D6C6AD"/>
+  <text x="656" y="382" fill="#1C1914" font-family="Consolas, monospace" font-size="22">{</text>
+  <text x="680" y="418" fill="#1C1914" font-family="Consolas, monospace" font-size="22">"canonical_id": "2301.12345",</text>
+  <text x="680" y="452" fill="#1C1914" font-family="Consolas, monospace" font-size="22">"title": "Chemotactic motility-induced",</text>
+  <text x="680" y="486" fill="#1C1914" font-family="Consolas, monospace" font-size="22">"primary_category": "physics.bio-ph"</text>
+  <text x="656" y="520" fill="#1C1914" font-family="Consolas, monospace" font-size="22">}</text>
+  <text x="632" y="586" fill="#655A4D" font-family="Segoe UI, sans-serif" font-size="20">Same extraction core as the CLI and SDK.</text>
+</svg>

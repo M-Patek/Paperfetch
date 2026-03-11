@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <entry>
+    <id>http://arxiv.org/abs/2301.12345v1</id>
+    <updated>2023-01-31T00:00:00Z</updated>
+    <published>2023-01-29T03:59:33Z</published>
+    <title> Chemotactic motility-induced phase separation </title>
+    <summary>
+      Collectives of actively-moving particles can spontaneously separate into dilute and dense phases.
+    </summary>
+    <author><name>Hongbo Zhao</name></author>
+    <author><name>Andrej Košmrlj</name></author>
+    <author><name>Sujit S. Datta</name></author>
+    <link href="https://arxiv.org/abs/2301.12345v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="https://arxiv.org/pdf/2301.12345v1.pdf" rel="related" type="application/pdf"/>
+    <arxiv:primary_category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <arxiv:license>http://arxiv.org/licenses/nonexclusive-distrib/1.0/</arxiv:license>
+  </entry>
+</feed>

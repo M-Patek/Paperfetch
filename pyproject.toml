@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paperfetch"
+version = "0.1.0"
+description = "Turn arXiv and alphaXiv URLs into clean structured JSON and Markdown."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+  { name = "paperfetch contributors" }
+]
+keywords = ["arxiv", "alphaxiv", "papers", "cli", "metadata", "research"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+]
+dependencies = []
+
+[project.optional-dependencies]
+demo = [
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+]
+browser = [
+  "playwright>=1.52",
+]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.8",
+  "mypy>=1.14",
+  "build>=1.2",
+]
+
+[project.scripts]
+paperfetch = "paperfetch.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+paperfetch = ["py.typed"]
+
+[tool.pytest.ini_options]
+addopts = "-q -p no:cacheprovider"
+testpaths = ["tests"]
+norecursedirs = [".npm-cache", "pytest-cache-files-*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = [".build-temp", ".pip-temp", ".test-output", "build", "dist"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.11"
+files = ["src"]
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_unused_configs = true
+check_untyped_defs = true
+ignore_missing_imports = true

@@ -1,0 +1,34 @@
+name: Provider breakage
+description: Report a change in arXiv or alphaXiv behavior that breaks extraction.
+title: "[provider] "
+labels: ["provider", "bug"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Affected source
+      description: Which provider broke?
+      placeholder: arXiv or alphaXiv
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example input
+      description: Provide a paper ID or URL that reproduces the breakage.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Observed behavior
+      description: Explain the failure mode and include warnings if available.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Include raw HTML/API snippets or screenshots if relevant.
+    validations:
+      required: false

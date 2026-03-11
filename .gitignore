@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.pytest-temp/
+.test-output/
+.venv/
+.npm-cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+pytest-cache-files-*/
