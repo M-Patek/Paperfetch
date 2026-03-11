@@ -46,9 +46,9 @@ dev = [
 paperfetch = "paperfetch.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/M-Patek/paperfetch"
-Repository = "https://github.com/M-Patek/paperfetch"
-Issues = "https://github.com/M-Patek/paperfetch/issues"
+Homepage = "https://github.com/M-Patek/Paperfetch"
+Repository = "https://github.com/M-Patek/Paperfetch"
+Issues = "https://github.com/M-Patek/Paperfetch/issues"
 
 [tool.setuptools]
 package-dir = { "" = "src" }

@@ -1,8 +1,8 @@
 # `paperfetch`
 
-[![CI](https://github.com/M-Patek/paperfetch/actions/workflows/ci.yml/badge.svg)](https://github.com/M-Patek/paperfetch/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-0f766e)](https://github.com/M-Patek/paperfetch/blob/main/LICENSE)
-[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB)](https://github.com/M-Patek/paperfetch/blob/main/pyproject.toml)
+[![CI](https://github.com/M-Patek/Paperfetch/actions/workflows/ci.yml/badge.svg)](https://github.com/M-Patek/Paperfetch/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-0f766e)](https://github.com/M-Patek/Paperfetch/blob/main/LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB)](https://github.com/M-Patek/Paperfetch/blob/main/pyproject.toml)
 [![Docs: EN | ZH](https://img.shields.io/badge/docs-EN%20%7C%20ZH-b74a21)](docs/README.md)
 
 Turn any `arXiv ID`, `arXiv URL`, or `alphaXiv URL` into clean structured JSON and Markdown for scripts, agents, and lightweight research pipelines.
