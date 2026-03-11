@@ -1,9 +1,9 @@
 # `paperfetch`
 
-![License: MIT](https://img.shields.io/badge/license-MIT-0f766e)
-![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB)
-![Checks](https://img.shields.io/badge/checks-pytest%20%7C%20ruff%20%7C%20mypy%20%7C%20build-1f2937)
-![Docs](https://img.shields.io/badge/docs-English%20%2B%20中文-b74a21)
+[![CI](https://github.com/M-Patek/paperfetch/actions/workflows/ci.yml/badge.svg)](https://github.com/M-Patek/paperfetch/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-0f766e)](https://github.com/M-Patek/paperfetch/blob/main/LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-3776AB)](https://github.com/M-Patek/paperfetch/blob/main/pyproject.toml)
+[![Docs: EN | ZH](https://img.shields.io/badge/docs-EN%20%7C%20ZH-b74a21)](docs/README.md)
 
 Turn any `arXiv ID`, `arXiv URL`, or `alphaXiv URL` into clean structured JSON and Markdown for scripts, agents, and lightweight research pipelines.
 
@@ -18,7 +18,7 @@ paperfetch extract https://www.alphaxiv.org/abs/2301.12345 --format json --no-al
   "title": "Chemotactic motility-induced phase separation",
   "authors": [
     "Hongbo Zhao",
-    "Andrej Košmrlj",
+    "Andrej Kosmrlj",
     "Sujit S. Datta"
   ],
   "primary_category": "physics.bio-ph"
@@ -124,7 +124,7 @@ print(record.to_json())
 - [Schema and output contract](docs/schema.md)
 - [FAQ](docs/faq.md)
 - [Roadmap](docs/roadmap.md)
-- [中文文档](docs/zh/README.md)
+- [Chinese docs](docs/zh/README.md)
 
 ## FAQ
 
